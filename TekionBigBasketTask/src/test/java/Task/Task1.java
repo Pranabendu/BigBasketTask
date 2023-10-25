@@ -23,9 +23,7 @@ public class Task1 {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.bigbasket.com");
 		driver.manage().window().maximize();
-		driver.findElement(By.xpath(
-				"//a[@href='https://www.bigbasket.com/offers/?nc=b-header-2-tile&b_t=header-2-tile&b_camp=hp_cmc_m_offer_28_220921_all']"))
-				.click();
+		driver.findElement(By.xpath("//a[@href='https://www.bigbasket.com/offers/?nc=b-header-2-tile&b_t=header-2-tile&b_camp=hp_cmc_m_offer_28_220921_all']")).click();
 
 		ArrayList<String> a1 = new ArrayList<String>();
 
