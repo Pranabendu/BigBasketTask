@@ -29,9 +29,6 @@ public class Task3 {
 		Thread.sleep(30000);
 		driver.findElement(By.xpath("//button[.='Verify & Continue']")).click();
 		
-//		Actions act = new Actions(driver);
-//		act.click().perform();
-		
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//button[@class='MemberDropdown___StyledMenuButton-sc-ce95dd-1 ezacJo']/*[name()='svg']/*[name()='g']")).click();
 		

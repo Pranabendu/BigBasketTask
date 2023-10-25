@@ -26,7 +26,9 @@ public class Task4 {
 		driver.findElement(By.xpath("//button[.='Login/ Sign Up']")).click();
 		driver.findElement(By.xpath("//input[@id='multiform']")).sendKeys("6296477764");
 		driver.findElement(By.xpath("//button[.='Continue']")).click();
+		
 		Thread.sleep(30000);
+		
 		driver.findElement(By.xpath("//button[.='Verify & Continue']")).click();
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
